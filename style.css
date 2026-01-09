@@ -196,3 +196,56 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-size:16px;
 }
 /*------------------- structure section end------------------- */
+
+
+/* -----------------SOLUTION SECTION START------- */
+#solution {
+    margin: 102px 0;
+}
+#solution .solution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#solution .solution-img img{
+    max-width: 500px;
+
+}
+
+#solution .solution-content h5{
+    color:#469165 ;
+    font-weight:500 ;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+#solution .solution-content h2{
+    color:#001931 ;
+    font-weight:bold ;
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+#solution .solution-content h5{
+    color:#469165 ;
+    font-weight:500 ;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+#solution .solution-content p{
+    color:#627382 ;
+    font-weight:400 ;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+#solution .cheack-mark{
+    display: flex;
+    padding-bottom: 16px;
+    gap: 6px;
+}
+#solution .cheack-mark span{
+    color:#001931 ;
+    font-size:16px ;
+    font-weight:500 ;
+}
+/* -----------------SOLUTION SECTION END------- */
