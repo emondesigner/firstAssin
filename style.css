@@ -66,6 +66,18 @@ max-width: 139px;
     font-weight:500 ;
     font-size: 16px;
 }
+.head-tittle{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+.head-pragraph{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
 
 /* ---------------------------- NAVBAR SECTION END */
 
@@ -131,4 +143,56 @@ text-align:center;
 .btn img{
     vertical-align: middle;
 }
+#banner .primary-btn:hover{
+     color:#FFFFFF;
+    font-weight:600 ;
+    font-size: 16px;
+    padding: 13px 16px;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #FFFFFF ;
+}
 /* -----------------------------BANNER SECTION END */
+
+/* -------------------structure section start------------------- */
+#structure{
+    margin-top: 44px;
+}
+#structure .notes-contant{
+    display: flex;
+    gap: 24px;
+}
+#structure .head-pragraph{
+    padding: 16px 0 44px 0;
+}
+#structure .notes-box{
+max-width: 322px;
+text-align: center;
+padding: 70px 24px 22px 24px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+#structure .notes-box .img{
+    width:60px ;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    margin: 0 auto;
+}
+#structure .notes-box h4{
+    color: #001931;
+    font-weight:600;
+    font-size: 22px;
+    padding: 16px 0;
+}
+#structure .notes-box p{
+    color: #627382;
+    font-weight:400;
+    font-size:16px;
+}
+/*------------------- structure section end------------------- */
