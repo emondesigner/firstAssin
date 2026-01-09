@@ -272,3 +272,34 @@ align-items: center;
     gap: 10px;
 }
 /* ------------------- ACCESS SECTION END--- */
+
+
+/* -------------- FOOTER SECTION START */
+#footer{
+ background-color: #001931;
+ margin-top: 120px;
+}
+#footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 120px 0 80px 0;
+   border-bottom:1px solid #E5E7EB;
+}
+#footer .footer-top .social-link h4{
+    color: #FFFFFF;
+    font-size:20px;
+    font-weight:500 ;
+    margin-bottom: 16px;
+}
+#footer .footer-top .social-link img{
+    margin-right: 16px;
+}
+#footer .footer-bottom p{
+    padding: 30px 0;
+    text-align: center;
+    color: #FAFAFA;
+    font-size:16px ;
+    font-weight:400 ;
+}
+/* -------------- FOOTER SECTION END */
